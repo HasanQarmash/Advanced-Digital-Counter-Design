@@ -1,0 +1,62 @@
+# Compiled output
+*.exe
+*.o
+*.obj
+*.out
+
+# Simulation files
+*.vcd
+*.wlf
+*.vstf
+
+# ModelSim/QuestaSim files
+work/
+transcript
+*.log
+*.wlf
+vsim.wlf
+
+# Quartus II files
+*.qpf
+*.qsf
+*.bsf
+*.qws
+*.rpt
+*.summary
+*.pin
+*.jdi
+db/
+incremental_db/
+output_files/
+
+# Vivado files
+*.xpr
+*.bit
+*.ltx
+*.tcl~
+*.jou
+*.log
+.Xil/
+vivado.jou
+vivado.log
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+hasan/compile/*.lib~*
+hasan/compile/*.epr
+hasan/compile/*.erf
+hasan/compile/vcp_cmd.log
+hasan/compile/vlog.cmd
+hasan/hasan/*.mgf
+hasan/hasan/elaboration.log
+hasan/hasan/slp/
